@@ -1,12 +1,16 @@
 import React from 'react';
 import Father from "./component/Father"
 import Parent from "./component/Parent"
+import HelloWorldFather from "./component/HelloWorldFather";
+
 function App() {
   return (
     <div className="App">
-        <Father />
+        {/* <Father />
         <hr />
         <Parent />
+        <hr /> */}
+        <HelloWorldFather />
     </div>
   );
 }
